@@ -5,21 +5,21 @@
 function Nav() {
 
     return(
-        <nav className="flex justify-between p-5 h-20 bg-green-300" >
+        <nav className="flex justify-between p-5 h-20" >
 
-            <div className="flex items-center">
+            <div className="flex items-center gap-4">
                 <h1 className="font-bold">Purrfect Bites</h1>
                 <h2>Home</h2>
             </div>
 
-            <ul className="flex font-medium justify-around flex-wrap  items-center">
-                <li>Our Food</li>
-                <li>Ingredients</li>
-                <li>Studies</li>
-                <li>FAQ</li>
+            <ul className="flex font-medium gap-2 justify-around flex-wrap items-center">
+                <li><a href="/">Our Food</a></li>
+                <li><a href="/">Ingredients</a></li>
+                <li><a href="/">Studies</a></li>
+                <li><a href="/">FAQ</a></li>
             </ul>
 
-        </nav> 
+        </nav>
     )
 }
 export default Nav

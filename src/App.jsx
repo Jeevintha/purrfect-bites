@@ -1,5 +1,6 @@
 import Nav from "./components/Nav"
 import Home from "./components/Home"
+import Review from "./components/Review"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Nav />
       <Home />
+      <Review />
     </div>
   )
 }
